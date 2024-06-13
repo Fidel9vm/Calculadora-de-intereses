@@ -30,6 +30,12 @@ label {
 input {
     color: black;
     background-color: white;
+    width: 11rem;
+    margin: 0 1rem;
+}
+select {
+    color: black;
+    background-color: white;
 }
 
 .btn {
