@@ -15,41 +15,45 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main>
-      <h1>Calculadora de Interés Simple y Compuesto</h1>
-      <br>
-      <label for="capitalInicial">Capital Inicial (Co):</label>
-      <input type="text" id="capitalInicial"/><br /><br />
+    <main class="text-center">
+      <br />
+      <h1>Interés Simple y Compuesto</h1>
+      <br />
+      <div class="calculadora">
+        <label for="capitalInicial">Capital Inicial (Co):</label>
+        <input type="text" id="capitalInicial" /><br /><br />
 
-      <label for="tasaInteres">Tasa de Interés (%):</label>
-      <input type="text" id="tasaInteres" />
-      <select id="unidadTasa">
-        <option value="anual">Anual</option>
-        <option value="mensual">Mensual</option>
-        <option value="semanal">Semanal</option>
-        <option value="diario">Diario</option>
-        <option value="semestral">Semestral</option>
-        <option value="trimestral">Trimestral</option>
-        <option value="cuatrimestral">Cuatrimestral</option></select
-      ><br /><br />
+        <label for="tasaInteres">Tasa de Interés (%):</label>
+        <input type="text" id="tasaInteres" />
+        <select id="unidadTasa">
+          <option value="anual">Anual</option>
+          <option value="mensual">Mensual</option>
+          <option value="semanal">Semanal</option>
+          <option value="diario">Diario</option>
+          <option value="semestral">Semestral</option>
+          <option value="trimestral">Trimestral</option>
+          <option value="cuatrimestral">Cuatrimestral</option></select
+        ><br /><br />
 
-      <label for="tiempo">Tiempo (t):</label>
-      <input type="text" id="tiempo"/>
-      <select id="unidadTiempo">
-        <option value="años">Años</option>
-        <option value="meses">Meses</option>
-        <option value="semanas">Semanas</option>
-        <option value="días">Días</option>
-        <option value="semestres">Semestres</option>
-        <option value="trimestres">Trimestres</option>
-        <option value="cuatrimestres">Cuatrimestres</option></select
-      ><br /><br />
-
+        <label for="tiempo">Tiempo (t):</label>
+        <input type="text" id="tiempo" />
+        <select id="unidadTiempo">
+          <option value="años">Años</option>
+          <option value="meses">Meses</option>
+          <option value="semanas">Semanas</option>
+          <option value="días">Días</option>
+          <option value="semestres">Semestres</option>
+          <option value="trimestres">Trimestres</option>
+          <option value="cuatrimestres">Cuatrimestres</option></select
+        ><br /><br />
+      </div>
       <button class="btn" onclick="calcularInteres()">Calcular Interés</button>
-        <br><br>
+      <br /><br />
+      <div class="text-start">
       <h2>Resultados:</h2>
       <p id="resultadoSimple"></p>
       <p id="resultadoCompuesto"></p>
+    </div>
     </main>
 
     <script src="app.js"></script>
