@@ -18,9 +18,18 @@ h1 {
     font-size: 2rem;
 }
 
+h2 {
+    font-size: 1.5rem;
+}
+
 label {
     margin: .5rem 0;
     font-size: 1.4rem;
+}
+
+input {
+    color: black;
+    background-color: white;
 }
 
 .btn {
@@ -37,4 +46,16 @@ label {
 
 p {
     font-size: 1.3rem;
+}
+
+@media screen and (max-width: 600px){
+    main {
+        text-align: center;
+    }
+    label {
+        font-size: 1.2rem;
+    }
+    input {
+        margin: 1rem !important;
+    }
 }
