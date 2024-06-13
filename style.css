@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+}
+
+main {
+    color: white;
+    background-color: #00040a;
+    max-width: 700px;
+    padding: 1rem 2rem;
+    margin: 2rem auto;
+    box-shadow: 1px 1px 10px #006eff;
+    border-radius: 15px;
+    text-shadow: 2px 2px 2px black;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+label {
+    margin: .5rem 0;
+    font-size: 1.4rem;
+}
+
+.btn {
+    background-color: #0055c5;
+    color: white;
+    margin-left: 1rem;
+    transition: 300ms;
+}
+
+.btn:hover {
+    scale: 1.1;
+    background-color: #0055c5;
+}
+
+p {
+    font-size: 1.3rem;
+}
